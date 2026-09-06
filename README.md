@@ -38,3 +38,6 @@ Welcome to the C++ Technical Reference Knowledge Base. This repository provides 
 ### 7. Language Fundamentals & Runtimes
 *   [C Runtime Library (CRT) & System Execution](language_fundamentals/crt.md) — CRT architecture, startup wrapping (`main` execution environment), static object initialization/destruction order, CRT allocation vs C++ operators, and C-string / math CRT vs C++ standard library wrappers.
 *   [Core Language Keywords & Type Inspection](language_fundamentals/keywords.md) — Comprehensive technical breakdown of `inline`, `constexpr`, `consteval`, `constinit`, `explicit`, `mutable`, `noexcept`, `override`, `final`, `nullptr`, `decltype`, `static`, `extern`, `thread_local`, standard casting operators, and C++26 additions (`_` placeholder, `= delete("reason")`, `^` reflection).
+
+### 8. Tooling, Debugging & Profiling Architecture
+*   [GDB, Valgrind & Callgrind Engineering Guide](tooling/debugging_and_profiling.md) — Interactive execution control, hardware watchpoints, post-mortem core dump analysis, multi-threaded debugging, Valgrind Memcheck shadow memory & leak taxonomy, Callgrind instruction counting & cache simulation, KCachegrind analysis, and diagnostic tool decision matrices.
